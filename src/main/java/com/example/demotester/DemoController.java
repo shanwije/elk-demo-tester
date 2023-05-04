@@ -1,43 +1,34 @@
-package com.example.demotester.controller;
+package com.example.demotester;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import org.json.simple.JSONArray;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Date;
 
 @RestController
 @RequestMapping(value = "/api")
 public class DemoController {
     // Initializing instance of Logger for Controller
-    private static final Logger log = LoggerFactory.getLogger(ELKController.class);
+    private static final Logger log = LoggerFactory.getLogger(DemoController.class);
+    private final DemoService service;
 
-    private final ELKService service;
-
-    private final RestService restService;
-
-    public ELKController(ELKService service, RestService restService) {
+    public DemoController(DemoService service) {
         this.service = service;
-        this.restService = restService;
     }
 
     @GetMapping(value = "/hello")
     public String helloWorld() {
-        log.info("Inside Hello World Function");
-        String response = "Hello World! " + new Date();
-        log.info("Response => {}",response);
-        return response;
+        log.info("Inside Hello World");
+        log.info("working");
+        return "working";
     }
 
     @GetMapping(value = "/data")
-    public JSONArray foodDetails() {
-        log.info("Inside Food Detail Function");
-        return service.getAllFoodDetails();
+    public JSONArray getData() {
+        log.info("Inside service getdata");
+        return service.getData();
     }
 }

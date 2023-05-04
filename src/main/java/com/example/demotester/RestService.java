@@ -1,2 +1,4 @@
-package com.example.demotester;public class RestService {
+package com.example.demotester;
+
+public class RestService {
 }

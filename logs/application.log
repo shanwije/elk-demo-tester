@@ -1,0 +1,13 @@
+04-05-2023 12:41:06.795 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarting - Starting DemoTesterApplication using Java 17.0.6 with PID 15678 (/Users/shan/code/demo-tester/build/classes/java/main started by shan in /Users/shan/code/demo-tester)
+04-05-2023 12:41:06.796 [restartedMain] DEBUG c.e.demotester.DemoTesterApplication.logStarting - Running with Spring Boot v3.0.6, Spring v6.0.8
+04-05-2023 12:41:06.797 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-05-2023 12:41:07.336 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.705 seconds (process running for 1.125)
+04-05-2023 12:41:35.337 [http-nio-8080-exec-3] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 12:41:35.338 [http-nio-8080-exec-3] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 12:41:35.361 [http-nio-8080-exec-3] ERROR com.example.demotester.DemoService.getData - Error occurred in reading JSON file
+04-05-2023 12:44:22.649 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarting - Starting DemoTesterApplication using Java 17.0.6 with PID 15767 (/Users/shan/code/demo-tester/build/classes/java/main started by shan in /Users/shan/code/demo-tester)
+04-05-2023 12:44:22.650 [restartedMain] DEBUG c.e.demotester.DemoTesterApplication.logStarting - Running with Spring Boot v3.0.6, Spring v6.0.8
+04-05-2023 12:44:22.650 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-05-2023 12:44:23.177 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.7 seconds (process running for 1.087)
+04-05-2023 12:44:30.044 [http-nio-8080-exec-1] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 12:44:30.045 [http-nio-8080-exec-1] INFO  com.example.demotester.DemoService.getData - Fetching Data...

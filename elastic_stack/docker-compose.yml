@@ -2,13 +2,13 @@ version: "3.9"
 
 services:
   elasticsearch:
-    image: elasticsearch:8.7.2
+    image: elasticsearch:8.7.1
     environment:
       - discovery.type=single-node
       - ES_JAVA_OPTS=-Xms1g -Xmx1g
       - xpack.security.enabled=false
     volumes:
-      - es_data:/usr/share/elasticsearch/data
+      - ./es_data:/usr/share/elasticsearch/data
     ports:
       - target: 9200
         published: 9200
@@ -30,14 +30,13 @@ services:
     volumes:
       - ./logstash/config:/usr/share/logstash/config
       - ./logstash/pipeline:/usr/share/logstash/pipeline
+      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./logstash/config/jvm.options:/usr/share/logstash/config/jvm.options
+      - ./logstash/config/log4j2.properties:/usr/share/logstash/config/log4j2.properties
     depends_on:
       - elasticsearch
     networks:
       - elastic
-
-volumes:
-  es_data:
-    driver: local
 
 networks:
   elastic:
