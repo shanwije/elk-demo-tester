@@ -11,3 +11,63 @@
 04-05-2023 12:44:23.177 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.7 seconds (process running for 1.087)
 04-05-2023 12:44:30.044 [http-nio-8080-exec-1] INFO  c.example.demotester.DemoController.getData - Inside service getdata
 04-05-2023 12:44:30.045 [http-nio-8080-exec-1] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 12:52:00.391 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarting - Starting DemoTesterApplication using Java 17.0.6 with PID 16516 (/Users/shan/code/demo-tester/build/classes/java/main started by shan in /Users/shan/code/demo-tester)
+04-05-2023 12:52:00.392 [restartedMain] DEBUG c.e.demotester.DemoTesterApplication.logStarting - Running with Spring Boot v3.0.6, Spring v6.0.8
+04-05-2023 12:52:00.392 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-05-2023 12:52:00.907 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.667 seconds (process running for 1.107)
+04-05-2023 12:52:39.457 [http-nio-8080-exec-2] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 12:52:39.461 [http-nio-8080-exec-2] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 12:53:32.167 [http-nio-8080-exec-3] INFO  c.example.demotester.DemoController.helloWorld - Inside Hello World
+04-05-2023 12:53:32.167 [http-nio-8080-exec-3] INFO  c.example.demotester.DemoController.helloWorld - working
+04-05-2023 13:01:39.157 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarting - Starting DemoTesterApplication using Java 17.0.6 with PID 16870 (/Users/shan/code/demo-tester/build/classes/java/main started by shan in /Users/shan/code/demo-tester)
+04-05-2023 13:01:39.159 [restartedMain] DEBUG c.e.demotester.DemoTesterApplication.logStarting - Running with Spring Boot v3.0.6, Spring v6.0.8
+04-05-2023 13:01:39.159 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-05-2023 13:01:39.727 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.765 seconds (process running for 1.107)
+04-05-2023 14:23:44.314 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarting - Starting DemoTesterApplication using Java 17.0.6 with PID 19646 (/Users/shan/code/demo-tester/build/classes/java/main started by shan in /Users/shan/code/demo-tester)
+04-05-2023 14:23:44.315 [restartedMain] DEBUG c.e.demotester.DemoTesterApplication.logStarting - Running with Spring Boot v3.0.6, Spring v6.0.8
+04-05-2023 14:23:44.316 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-05-2023 14:23:44.883 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.756 seconds (process running for 1.264)
+04-05-2023 14:23:55.953 [http-nio-8080-exec-1] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:23:55.953 [http-nio-8080-exec-1] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:26:33.246 [http-nio-8080-exec-4] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:26:33.249 [http-nio-8080-exec-4] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:26:34.271 [http-nio-8080-exec-5] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:26:34.271 [http-nio-8080-exec-5] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:26:34.862 [http-nio-8080-exec-6] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:26:34.863 [http-nio-8080-exec-6] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:26:35.402 [http-nio-8080-exec-7] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:26:35.403 [http-nio-8080-exec-7] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:29:13.236 [http-nio-8080-exec-10] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:29:13.237 [http-nio-8080-exec-10] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:29:14.551 [http-nio-8080-exec-1] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:29:14.553 [http-nio-8080-exec-1] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:29:19.718 [http-nio-8080-exec-3] INFO  c.example.demotester.DemoController.helloWorld - Inside Hello World
+04-05-2023 14:29:19.720 [http-nio-8080-exec-3] INFO  c.example.demotester.DemoController.helloWorld - working
+04-05-2023 14:49:50.867 [http-nio-8080-exec-5] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:49:50.875 [http-nio-8080-exec-5] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 14:49:52.430 [http-nio-8080-exec-6] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 14:49:52.432 [http-nio-8080-exec-6] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 15:05:04.687 [http-nio-8080-exec-3] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 15:05:04.691 [http-nio-8080-exec-3] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 15:05:14.951 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarting - Starting DemoTesterApplication using Java 17.0.6 with PID 20618 (/Users/shan/code/demo-tester/build/classes/java/main started by shan in /Users/shan/code/demo-tester)
+04-05-2023 15:05:14.952 [restartedMain] DEBUG c.e.demotester.DemoTesterApplication.logStarting - Running with Spring Boot v3.0.6, Spring v6.0.8
+04-05-2023 15:05:14.952 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-05-2023 15:05:15.485 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.695 seconds (process running for 1.223)
+04-05-2023 15:05:47.313 [http-nio-8080-exec-1] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 15:05:47.313 [http-nio-8080-exec-1] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 15:05:50.084 [http-nio-8080-exec-2] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 15:05:50.084 [http-nio-8080-exec-2] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 15:09:29.142 [http-nio-8080-exec-5] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 15:09:29.146 [http-nio-8080-exec-5] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 15:10:19.781 [http-nio-8080-exec-7] INFO  c.example.demotester.DemoController.helloWorld - Inside Hello World
+04-05-2023 15:10:19.785 [http-nio-8080-exec-7] INFO  c.example.demotester.DemoController.helloWorld - working
+04-05-2023 15:18:38.137 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarting - Starting DemoTesterApplication using Java 17.0.6 with PID 21139 (/Users/shan/code/demo-tester/build/classes/java/main started by shan in /Users/shan/code/demo-tester)
+04-05-2023 15:18:38.139 [restartedMain] DEBUG c.e.demotester.DemoTesterApplication.logStarting - Running with Spring Boot v3.0.6, Spring v6.0.8
+04-05-2023 15:18:38.139 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-05-2023 15:18:38.677 [restartedMain] INFO  c.e.demotester.DemoTesterApplication.logStarted - Started DemoTesterApplication in 0.703 seconds (process running for 1.205)
+04-05-2023 15:18:51.624 [http-nio-8080-exec-1] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 15:18:51.624 [http-nio-8080-exec-1] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 15:29:56.790 [http-nio-8080-exec-4] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 15:29:56.790 [http-nio-8080-exec-4] INFO  com.example.demotester.DemoService.getData - Fetching Data...
+04-05-2023 15:32:53.189 [http-nio-8080-exec-7] INFO  c.example.demotester.DemoController.getData - Inside service getdata
+04-05-2023 15:32:53.190 [http-nio-8080-exec-7] INFO  com.example.demotester.DemoService.getData - Fetching Data...

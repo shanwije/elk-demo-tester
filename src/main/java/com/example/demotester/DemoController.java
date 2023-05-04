@@ -1,5 +1,6 @@
 package com.example.demotester;
 
+import lombok.extern.slf4j.Slf4j;
 import org.json.simple.JSONArray;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,12 +9,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
-@RequestMapping(value = "/api")
+@Slf4j
 public class DemoController {
-    // Initializing instance of Logger for Controller
-    private static final Logger log = LoggerFactory.getLogger(DemoController.class);
-    private final DemoService service;
+
+    DemoService service;
 
     public DemoController(DemoService service) {
         this.service = service;
@@ -21,14 +23,18 @@ public class DemoController {
 
     @GetMapping(value = "/hello")
     public String helloWorld() {
-        log.info("Inside Hello World");
-        log.info("working");
+        log.info("Welcome home page");
         return "working";
     }
 
     @GetMapping(value = "/data")
     public JSONArray getData() {
-        log.info("Inside service getdata");
+        log.info("Welcome data page");
         return service.getData();
+    }
+
+    @GetMapping(value = "/users")
+    public List<RandomUser> getUsers(){
+        return service.getUsers();
     }
 }

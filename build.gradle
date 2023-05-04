@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'net.logstash.logback:logstash-logback-encoder:6.6'
     implementation 'org.json:json:20180130'
     implementation 'com.googlecode.json-simple:json-simple:1.1'
     compileOnly 'org.projectlombok:lombok'
