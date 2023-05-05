@@ -1,7 +1,6 @@
 package com.example.demotester;
 
 import lombok.extern.slf4j.Slf4j;
-import org.json.simple.JSONArray;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,14 +26,16 @@ public class DemoController {
         return "working";
     }
 
-    @GetMapping(value = "/data")
-    public JSONArray getData() {
-        log.info("Welcome data page");
-        return service.getData();
-    }
+//    @GetMapping(value = "/data")
+//    public JSONArray getData() {
+//        log.info("Welcome data page");
+//        return service.getData();
+//    }
 
     @GetMapping(value = "/users")
     public List<RandomUser> getUsers(){
-        return service.getUsers();
+        var users =  service.getUsers();
+        log.info("Data " + users);
+        return users;
     }
 }
